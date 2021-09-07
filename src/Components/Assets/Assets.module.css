@@ -1,0 +1,115 @@
+.assets {
+  display: flex;
+  flex-direction: column;
+}
+
+.assetsImage {
+  max-width: 300px;
+  max-height: 300px;
+  border: 3px solid #fff;
+  margin-top: 10px;
+}
+
+.assetSub {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0 0 100px;
+}
+.assetSub div {
+  margin-left: 10px;
+}
+
+.assetModel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.assetModel div {
+  margin-left: 10px;
+}
+
+.assetStatus {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 100px 20px;
+}
+.assetStatus div {
+  margin-left: 10px;
+}
+
+.highchart {
+  width: 420px;
+}
+
+.highcharts {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px 0px 0px;
+}
+
+.editAsset {
+  background-color: #8baefa;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin: 0px 0px 20px 0px;
+  text-decoration: none;
+}
+
+.putAsset {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  flex-wrap: wrap;
+  background-color: #8baefa;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 0 0 20px;
+}
+
+.putAsset div {
+  margin-left: 15px;
+}
+
+.editImg {
+  height: 350px;
+  width: 300px;
+  border: 5px solid #8baefa;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .highcharts {
+    flex-direction: column;
+    margin: 20px 0px 10px 0px;
+  }
+  .highchart {
+    margin: 20px auto;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .highchart {
+    width: 340px;
+  }
+}

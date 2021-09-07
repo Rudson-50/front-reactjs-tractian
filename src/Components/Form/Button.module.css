@@ -1,0 +1,22 @@
+.button {
+  background-color: #8baefa;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0px 0px 20px;
+}
+
+.button:hover,
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #185EF6, 0 0 0 4px #1E3A8A;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: wait;
+}
